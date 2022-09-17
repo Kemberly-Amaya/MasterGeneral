@@ -84,7 +84,7 @@ public class Persona {
     public String toGeneral() {
         return "Persona{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + ", Peso=" + Peso + ", Altura=" + Altura + '}';
     }
-//Método toString para mostrar mensaje en person2
+
     @Override
     public String toString() {
         return "Persona{" + "Nombre=" + Nombre + ", Edad=" + Edad + ", Sexo=" + Sexo + '}';

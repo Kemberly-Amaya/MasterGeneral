@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.Thymealft.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZLAND</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="icon" type="img/jpg" href="iconos/icon.jpg">
+</head>
+<body>
+    <div id="Principal">
+        <header>
+            <div id="logo">
+                <img class="titulo" src="iconos/1cb9f77b-13d5-4a36-8069-1aeb7f889578.jpg" height="80px" width="380px" alt="">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">Nosotros</a></li>
+                    <li><a th:href="@{/Puntaje}">Puntajes</a></li>
+                    <li><a href="" class="contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="slide">
+            <img src="img/1_QtaZbWHG6xWe-dHwFIQFmA.png" alt="" width="900px" height="250px">
+        </section>
+        <section id="categorias">
+            <section class="uno">
+                <img src="iconos/Python-Logo.png" width="200px" height="200px" alt="">
+                <h2>PYTHON</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam 
+                    dicta eveniet, voluptatibus placeat, explicabo suscipit voluptatum 
+                
+                </p>
+                <a href="" class="leerMasPython">Coming soon...</a><br><br>
+            </section>
+            <section class="uno dos">
+                <img src="iconos/306px-ISO_C++_Logo.svg.png" width="200px" height="200px" alt="">
+                <h2>C++</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam 
+                    dicta eveniet, voluptatibus placeat, explicabo suscipit voluptatum 
+                
+                </p>
+                <a href="" class="leerMasC">Coming soon...</a><br><br>
+            </section>
+            <section class="uno">
+                <img src="iconos/download.png" width="200px" height="200px" alt="">
+                <h2>JAVA</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam 
+                    dicta eveniet, voluptatibus placeat, explicabo suscipit voluptatum 
+                
+                </p>
+                <a th:href="@{/quiz}" class="leerMasJava">¡Comenzar!</a><br><br>
+            </section>
+        </section><!--/ final de categorias-->
+
+        <footer>
+            <p>
+                (c) Todos los derechos reservados - Spring Boot 2020 <br>
+                Contactanos a lm0324032020@gmail.com <a href="mailto:lm0324032020@gmail.com">Ir</a>
+            </p>
+        </footer>
+
+
+    </div>
+    
+</body>
+</html>
